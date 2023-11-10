@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 1698424451}
   - component: {fileID: 1698424453}
   - component: {fileID: 1698424452}
+  - component: {fileID: 1698424454}
   m_Layer: 5
   m_Name: Board
   m_TagString: Untagged
@@ -461,6 +462,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698424450}
   m_CullTransparentMesh: 1
+--- !u!114 &1698424454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698424450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c09af0f937f1d214a9ddeb834db6e2cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boardRect: {fileID: 1698424451}
+  _cellPrefab: {fileID: 1432125531095450079, guid: d269bfa9be19e0444ac18b7036ad9602, type: 3}
+  _cellSprites:
+  - {fileID: 21300000, guid: 346df97d72559af46ac41d03277d49a8, type: 3}
+  - {fileID: 21300000, guid: c0bd4c5343e85834ebaabab24afdff8c, type: 3}
+  - {fileID: 21300000, guid: 851e4e5747687d74c91f1fa5e2a0b4b8, type: 3}
+  - {fileID: 21300000, guid: 5fff563544ed8f74f8211bba2a2d7ddf, type: 3}
+  - {fileID: 21300000, guid: 80df7199d39de564ea16bc7e04bb5326, type: 3}
 --- !u!1 &1930859753
 GameObject:
   m_ObjectHideFlags: 0
